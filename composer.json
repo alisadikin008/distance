@@ -1,0 +1,37 @@
+{
+  "name": "alisadikin008/distance",
+  "description": "To Estimate Distance between Location A to Location B",
+  "require": {
+    "php": "^5.3.2 || ^7.0",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "homepage": "https://github.com/alisadikin008/distance",
+  "keywords": ["location id A","location id B"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ali Sadikin",
+      "email": "alisadikin008@gmail.com",
+      "homepage": "http://proposa.id",
+      "role": "System Engineer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Alisadikin008\\Distance\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Alisadikin008\\Distance\\Test\\": "test"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1-dev"
+    }
+  }
+}
